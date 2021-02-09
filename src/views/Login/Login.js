@@ -15,17 +15,17 @@ const Login = () => {
                 <h3>Imagen</h3>
             </div>
             <div className="contenedor__form">
-                <h3>Iniciar Sesión</h3>
                 <div className="card">
+                    <h3>Iniciar Sesión</h3>
                     <form className="card__form"
                           onSubmit={ (e) =>  login(e) }>
                         <input type="email"
-                               placeholder="E-mail"
+                               placeholder="Usuario o Correo: "
                                className="card__input"
                         />
                         <input
                             type="password"
-                            placeholder="Password"
+                            placeholder="Contraseña: "
                             className="card__input"
                         />
 

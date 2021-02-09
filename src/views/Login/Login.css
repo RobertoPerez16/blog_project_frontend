@@ -1,4 +1,3 @@
-
 /* Contenedor principal */
 .contenedor {
     display: flex;
@@ -17,6 +16,7 @@
     text-align: center;
     height: 600px;
     width: 50%;
+    margin-top: 100px;
 }
 /* card */
 .card {
@@ -24,19 +24,19 @@
     border: 2px solid #969696;
     border-radius: 4px;
     margin: 0 auto;
-    width: 450px;
-    height: 300px;
+    width: 380px;
+    height: 360px;
 }
 
 /* form dentro del card */
 .card__form {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .card__input {
     background: transparent;
     border: none;
-    border-bottom: 3px #ffffff solid;
+    border-bottom: 3px #0b0b9f solid;
     margin-top: 30px;
     outline: none;
     height: 30px;
@@ -45,15 +45,31 @@
 }
 
 .card__input:focus {
-    border-bottom: 3px #0b0b9f solid;
+    border-bottom: 3px #ffffff solid;
 }
 
 .card__input::placeholder {
-    color: #032c8a;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Nunito', sans-serif;
 }
 
 .divBoton {
     margin-top: 40px;
+}
+
+@media screen and (max-width: 760px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedor__imagen {
+        width: 90%;
+    }
+    .contenedor__form {
+        width: 80%;
+    }
 }
