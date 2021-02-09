@@ -1,0 +1,59 @@
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Contenedor de la izquierda */
+.contenedor__imagen {
+    text-align: center;
+    width: 50%;
+}
+
+/* Contenedor de la derecha */
+
+.contenedor__form {
+    text-align: center;
+    height: 600px;
+    width: 50%;
+}
+/* card */
+.card {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border: 2px solid #969696;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+}
+
+/* form dentro del card */
+.card__form {
+    margin-top: 50px;
+}
+
+.card__input {
+    background: transparent;
+    border: none;
+    border-bottom: 3px #ffffff solid;
+    margin-top: 30px;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    transition: all ease 0.8s;
+}
+
+.card__input:focus {
+    border-bottom: 3px #0b0b9f solid;
+}
+
+.card__input::placeholder {
+    color: #032c8a;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.divBoton {
+    margin-top: 40px;
+}
