@@ -1,5 +1,6 @@
 import './Login.css'
-import Boton from "../../components/Botones/Boton";
+import Boton from "../../components/Botones/Boton"
+import Navegacion from "../../components/Navegacion/Navegacion"
 const Login = () => {
     /* States */
 
@@ -10,6 +11,8 @@ const Login = () => {
 
 
     return (
+        <div id="container">
+         <Navegacion />
         <div className="contenedor">
             <div className="contenedor__imagen">
                 <h3>Imagen</h3>
@@ -35,6 +38,7 @@ const Login = () => {
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

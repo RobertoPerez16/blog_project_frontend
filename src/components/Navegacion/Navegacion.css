@@ -1,0 +1,21 @@
+.enlace{
+    text-decoration:none;
+    color:antiquewhite;
+}
+
+.nav{
+    background-color: #2175bc;
+}
+
+.nav ul{
+    display: flex;
+    font-family:'Nunito', sans-serif;
+    font-size: 11px;
+    justify-content: flex-end;
+}
+
+.nav ul li{
+    color:antiquewhite;
+    list-style:none;
+    padding:10px; 
+}

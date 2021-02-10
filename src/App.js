@@ -1,8 +1,9 @@
+import Navegacion from "../src/components/Navegacion/Navegacion"
 
 const App = () => {
   return (
       <div>
-        <h1>Hola Mundo!</h1>
+        <Navegacion />
       </div>
   )
 }

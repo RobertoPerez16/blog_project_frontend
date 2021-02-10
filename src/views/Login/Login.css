@@ -1,7 +1,14 @@
-/* Contenedor principal */
+/*Contenedor padre*/
+#container{
+    background-image: url("../../assets/img/web.jpg");
+    background-size:100% 100%;
+}
+
+/* Contenedor hijo */
 .contenedor {
     display: flex;
     font-family: 'Nunito', sans-serif;
+    background-color: transparent;
 }
 
 /* Contenedor de la izquierda */
