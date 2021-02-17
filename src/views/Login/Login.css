@@ -13,8 +13,26 @@
 
 /* Contenedor de la izquierda */
 .contenedor__imagen {
+    margin-left: 60px;
+    margin-top: 100px;
     text-align: center;
     width: 50%;
+}
+
+.contenedor__imagen h3{
+    color: whitesmoke;
+    font-size: 100px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.contenedor__imagen p{
+    color:blue;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 25px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 /* Contenedor de la derecha */
@@ -33,6 +51,10 @@
     margin: 0 auto;
     width: 380px;
     height: 360px;
+}
+
+.card h3{
+    margin: 20px;
 }
 
 /* form dentro del card */

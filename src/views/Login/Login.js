@@ -15,7 +15,11 @@ const Login = () => {
          <Navegacion />
         <div className="contenedor">
             <div className="contenedor__imagen">
-                <h3>Imagen</h3>
+                <h3>BIENVENIDO</h3>
+                <p>El lugar donde tus ideas y opiniones,
+                    las puedes compartir con todo 
+                    el mundo
+                </p>
             </div>
             <div className="contenedor__form">
                 <div className="card">
